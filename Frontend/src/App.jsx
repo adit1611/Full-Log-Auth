@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 import { useAuthStore } from './store/authStore';
 import Dashboard from './pages/Dashboard';
 import LoadingSpinner from './component/LoadingSpinner'
-import ForgotPass from './pages/forgotpass';
+import ForgotPass from './pages/Forgotpass';
 import ResetPass from './pages/ResetPass';
 
 // protect routes that require authentication
