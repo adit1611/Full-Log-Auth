@@ -4,8 +4,8 @@
   "description": "",
   "main": "backend/index.js",
   "scripts": {
-    "dev": "cross-env Node_ENV=development nodemon backend/index.js",
-    "start": "cross-env Node_ENV=production nodemon backend/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
+    "start": "cross-env NODE_ENV=production nodemon backend/index.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
